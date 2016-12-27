@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+    font-family: SurroundingBold;
+    src: url(../fonts/SurroundingBold.otf);
+
+}
+
+@font-face {
+    font-family: Surrounding;
+    src: url(../fonts/SurroundingRegular.otf);
+
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/Avenir.ttc);
+
+}
+
