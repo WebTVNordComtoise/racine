@@ -32,27 +32,27 @@
       <file leaf-file-name="recherche.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recherche.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+            <state vertical-scroll-proportion="-24.846153">
+              <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mise_en_page.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mise_en_page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mise_en_page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76441514">
+            <state vertical-scroll-proportion="0.0">
               <caret line="646" column="22" selection-start-line="646" selection-start-column="22" selection-end-line="646" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adresses.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="adresses.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adresses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
+            <state vertical-scroll-proportion="0.46815833">
               <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
               <folding />
             </state>
@@ -78,9 +78,9 @@
         <option value="$PROJECT_DIR$/live.html" />
         <option value="$PROJECT_DIR$/profil.html" />
         <option value="$PROJECT_DIR$/quisommesnous.html" />
-        <option value="$PROJECT_DIR$/recherche.html" />
         <option value="$PROJECT_DIR$/Video.html" />
         <option value="$PROJECT_DIR$/css/mise_en_page.css" />
+        <option value="$PROJECT_DIR$/recherche.html" />
       </list>
     </option>
   </component>
@@ -389,26 +389,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/mise_en_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="646" column="22" selection-start-line="646" selection-start-column="22" selection-end-line="646" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recherche.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        <state vertical-scroll-proportion="-24.846153">
+          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adresses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
+        <state vertical-scroll-proportion="0.46815833">
           <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mise_en_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76441514">
-          <caret line="646" column="22" selection-start-line="646" selection-start-column="22" selection-end-line="646" selection-end-column="22" />
           <folding />
         </state>
       </provider>
