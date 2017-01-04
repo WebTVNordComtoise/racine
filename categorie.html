@@ -15,45 +15,63 @@
 
 <header>
 
-    <nav role="navigation">
-        <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-                <li><a class="accueil" href="live.html">Live</a></li>
-                <li><a class="accueil" href="categorie.html">Catégories</a></li>
-                <li><a class="accueil" href="Diffusez.html">Diffusez-vous</a></li>
-                <li><a class="accueil" href="adresses.html">Bonnes adresses</a></li>
-                <li><a class="accueil" href="boite.html">Boite à idées</a></li>
-                <li><a class="accueil" href="contact.html">Contact</a></li>
-                <li><a class="compte" href="#">Inscription</a></li>
-            </ul>
+
+    <div class="header1">
+        <div class="recherche_p">
+            <form action="/search" id="searchthis" method="get">
+                <input id="search" name="q" type="text" placeholder=" Recherche..."/>
+            </form>
         </div>
-    </nav>
-    <a href="index.html"><img class="logo" src="media/images/logo.png" alt="logo" ></a>
 
-    <h1>Au rythme du Nord Franche Comté</h1>
 
-    <div class="recherche_p">
+        <div class="reseaux-sociaux">
+            <a href="#"><img src="media/icones/calendrier.png" alt="calendrier"></a>
+            <a href="Agenda.html"><img src="media/icones/news.png" alt="agenda"></a>
+            <a href="https://twitter.com/webtvNC"><img src="media/icones/twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/WEB-TV-NORD-Comtoise-196242510834079/?fref=ts"><img src="media/icones/facebook.png" alt="Facebook"></a>
+        </div>
 
-        <form action="/search" id="searchthis" method="get">
-            <input id="search" name="q" type="text" placeholder=" Recherche..." />
-        </form>
+
     </div>
-    <div class="teteprofil">
-        <style type="text/css">
-            .roundedImage {
-                overflow: hidden;
-                -webkit-border-radius: 50px;
-                -moz-border-radius: 50px;
-                border-radius: 50px;
-                width: 90px;
-                height: 90px;
-            }
-        </style>
-        <img class="roundedImage" src="media/images/jeune-profil-d-homme-d-affaires-5671576.jpg">
+
+    <div class="header2">
+        <a href="index.html"> <img class="logo" src="media/images/logo.png" alt="logo"> </a>
+
+    </div>
+
+    <div class="bloctagline">
+
+        <h1 class="tagline"> Au rythme du Nord Franche Comté</h1>
+
+    </div>
+
+    <img class="roundedImage" src="media/images/photoprofil.jpg">
+
+    <div class="header3">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li><a class="accueil1" href="live.html">Live</a></li>
+                    <!--
+                                        -->
+                    <li><a class="accueil" href="categorie.html">Catégories</a></li>
+                    <!--
+                                        -->
+                    <li><a class="accueil" href="diffusez-vous.html">Diffusez-vous</a></li>
+                    <!--
+                                        -->
+                    <li><a class="accueil" href="adresses.html">Bonnes adresses</a></li>
+                    <!--
+                                        -->
+                    <li><a class="accueil" href="contact.html">Contact</a></li>
+                    <!--
+                                        -->
+                </ul>
+            </div>
+        </nav>
     </div>
 </header>
 
@@ -99,16 +117,19 @@
 
 </div>
 
-<div class="footer">
-    <p class="mention-legale">Mentions légales</p>
+<footer>
+    <div class="footer1">
+        <ul class="menu-footer">
+            <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+            <li class="newsletter"><a href="">Newsletter</a></li>
+        </ul>
+    </div>
 
-    <a href="https://www.francebleu.fr/"><img class="contact" src="media/icones/news.jpg" alt="News"></a>
-    <a href="#"><img class="contact" src="media/icones/newsletter-icon.png" alt="Newsletter"></a>
-    <a href="https://twitter.com/?lang=fr"><img class="contact" src="media/icones/twitter_letter-512.png" alt="twitter"></a>
-    <a href="https://www.facebook.com/"><img class="contact" src="media/icones/Facebook_logo_(square).png" alt="Facebook"></a>
-</div>
+    <div class="footer2">
+        <p class="mention-legale">Mentions légales</p>
+    </div>
 
-
+</footer>
 </body>
 </html>
 

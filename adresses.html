@@ -8,111 +8,132 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/typo_couleurs.css">
-    <title>Accueil</title>
+    <title>Les bonnes adresses</title>
 </head>
 
 <body>
 <header>
 
-    <nav role="navigation">
-        <div id="menuToggle">
-            <input type="checkbox"/>
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-                <li><a class="accueil" href="live.html">Live</a></li>
-                <li><a class="accueil" href="categorie.html">Catégories</a></li>
-                <li><a class="accueil" href="Diffusez.html">Diffusez-vous</a></li>
-                <li><a class="accueil" href="adresses.html">Bonnes adresses</a></li>
-                <li><a class="accueil" href="boite.html">Boite à idées</a></li>
-                <li><a class="accueil" href="contact.html">Contact</a></li>
-                <li><a class="compte" href="#">Inscription</a></li>
-            </ul>
+
+    <div class="header1">
+        <div class="recherche_p">
+            <form action="/search" id="searchthis" method="get">
+                <input id="search" name="q" type="text" placeholder=" Recherche..."/>
+            </form>
+
         </div>
-    </nav>
-    <a href="index.html"> <img class="logo" src="media/images/logo.png" alt="logo"> </a>
 
-    <h1>Au rythme du Nord Franche Comté</h1>
 
-    <div class="recherche_p">
+        <div class="reseaux-sociaux">
+            <a href="#"><img src="media/icones/calendrier.png" alt="calendrier"></a>
+            <a href="Agenda.html"><img src="media/icones/news.png" alt="agenda"></a>
+            <a href="https://twitter.com/webtvNC"><img src="media/icones/twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/WEB-TV-NORD-Comtoise-196242510834079/?fref=ts"><img
+                    src="media/icones/facebook.png" alt="Facebook"></a>
+        </div>
 
-        <form action="/search" id="searchthis" method="get">
-            <input id="search" name="q" type="text" placeholder=" Recherche..."/>
-        </form>
-    </div>
-    <div class="teteprofil">
-        <style type="text/css">
-            .roundedImage {
-                overflow: hidden;
-                -webkit-border-radius: 50px;
-                -moz-border-radius: 50px;
-                border-radius: 50px;
-                width: 90px;
-                height: 90px;
-            }
-        </style>
-        <img class="roundedImage" src="media/images/jeune-profil-d-homme-d-affaires-5671576.jpg">
+
     </div>
 
+    <div class="header2">
+        <a href="index.html"> <img class="logo" src="media/images/logo.png" alt="logo"> </a>
+
+    </div>
+    <div class="bloctagline">
+
+        <h1 class="tagline"> Au rythme du Nord Franche Comté</h1>
+    </div>
+
+
+        <img class="roundedImage" src="media/images/photoprofil.jpg">
+
+
+        <div class="header3">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li><a class="accueil1" href="live.html">Live</a></li>
+                        <!--
+                                            -->
+                        <li><a class="accueil" href="categorie.html">Catégories</a></li>
+                        <!--
+                                            -->
+                        <li><a class="accueil" href="diffusez-vous.html">Diffusez-vous</a></li>
+                        <!--
+                                            -->
+                        <li><a class="accueil" href="adresses.html">Bonnes adresses</a></li>
+
+
+                        <li><a class="accueil" href="contact.html">Contact</a></li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
 </header>
 
+<div class="bonne-adresses">
 
-<div class="adresses">
+    <h1>Les bonnes adresses</h1>
 
-    <h2 class="bonne-adresses">Les bonnes adresses</h2>
-
-    <div class="clair">
+    <div class="adresses">
         <div class="image-adresse">
-            <img src="media/images/restaurant(1).jpg">
-            <p>Le Morteau</p>
-            <p>Hôtel-Restaurant</p>
-            <a href="http://www.hotel-morteau-pontarlier.fr/fr">http://www.hotel-morteau-pontarlier.fr/fr</a>
+            <img src="media/images/miniature.png">
+            <div class="info-adresse">
+                <h4>Hôtel-Restaurant Le Morteau</h4>
+                <p>Description</p>
+                <a href="http://www.hotel-morteau-pontarlier.fr/fr">http://www.hotel-morteau-pontarlier.fr/fr</a>
+            </div>
         </div>
-    </div>
 
-    <div class="fonce">
+
         <div class="image-adresse">
-            <img src="media/images/280px-Citadelle_Besan-on.jpg">
-            <p>Citadelle de Besancon</p>
-            <a href="http://www.citadelle.com/fr/">http://www.citadelle.com/fr/</a>
+            <img src="media/images/miniature.png">
+            <div class="info-adresse">
+                <h4>Citadelle de Besancon </h4>
+                <p>Description</p>
+                <a href="http://www.citadelle.com/fr/">http://www.citadelle.com/fr/</a>
+            </div>
         </div>
-    </div>
 
-    <div class="clair">
+
         <div class="image-adresse">
-            <img src="media/images/Stade_Sochaux_Bonal.jpg">
-            <p>Stade Bonal FC Sochaux Montbéliard</p>
-            <p>Découvrez le stade du Football Club Sochaux Montbéliard.</p>
-            <a href="http://www.fcsochaux.fr/fr/index.php">http://www.fcsochaux.fr/fr/index.php</a>
+            <img src="media/images/miniature.png">
+            <div class="info-adresse">
+                <h4>Découvrez le stade du Football Club Sochaux Montbéliard.</h4>
+                <p>Description</p>
+                <a href="http://www.fcsochaux.fr/fr/index.php">http://www.fcsochaux.fr/fr/index.php</a>
+           </div>
         </div>
-    </div>
 
-    <div class="fonce">
         <div class="image-adresse">
-            <img src="media/images/restaurant(2).jpg">
-            <p>Les Capucins</p>
-            <p>Hôtel-Restaurant</p>
-            <a href="http://www.capucins-hotel.fr/fr/hotel-befort-centre-ville-site-officiel.php">
-                http://www.capucins-hotel.fr/fr/hotel-befort-centre-ville-site-officiel.php</a>
+            <img src="media/images/miniature.png">
+            <div class="info-adresse">
+                <h4>Hôtel-Restaurant Les Capucins</h4>
+                <p>Description</p>
+                <a href="http://www.capucins-hotel.fr/fr/hotel-befort-centre-ville-site-officiel.php">
+                    http://www.capucins-hotel.fr/fr/hotel-befort-centre-ville-site-officiel.php</a>
+            </div>
         </div>
     </div>
 </div>
 
 
 
+<footer>
+    <div class="footer1">
+        <ul class="menu-footer">
+            <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
+            <li class="newsletter"><a href="">Newsletter</a></li>
+        </ul>
+    </div>
 
-
-
-<div class="footer">
-    <p class="mention-legale">Mentions légales</p>
-
-    <a href="https://www.francebleu.fr/"><img class="contact" src="media/icones/news.jpg" alt="News"></a>
-    <a href="#"><img class="contact" src="media/icones/newsletter-icon.png" alt="Newsletter"></a>
-    <a href="https://twitter.com/?lang=fr"><img class="contact" src="media/icones/twitter_letter-512.png" alt="twitter"></a>
-    <a href="https://www.facebook.com/"><img class="contact" src="media/icones/Facebook_logo_(square).png" alt="Facebook"></a>
-</div>
-
+    <div class="footer2">
+        <p class="mention-legale">Mentions légales</p>
+    </div>
+</footer>
 
 </body>
 </html>
