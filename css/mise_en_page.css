@@ -630,6 +630,31 @@ header h1 {
 /******************************/
 
 /******************************\
+            Qui sommes nous ?
+/******************************/
+
+.quisommesnous .h2 {
+    text-align: center;
+}
+
+.qsn img {
+    display: block;
+    background-color: black;
+    margin: auto;
+    width:30%;
+}
+
+.qsn {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+/******************************\
+             /Qui sommes nous ?
+/******************************/
+
+/******************************\
             RECHERCHE
 /******************************/
 
