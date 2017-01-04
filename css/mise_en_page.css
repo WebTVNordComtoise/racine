@@ -322,7 +322,7 @@ header h1 {
 #MonFormulaire textarea{font-family:'Surrounding'; width:98%; height:14em; font-size:0.85em; padding:0.5em; border:none; text-align:center;}
 
 #MonFormulaire button#Btn-Submit{background-color:rgb(38,38,40); color:#fec500;); font-family:'Surrounding'; font-size:1em; text-transform:uppercase; width:300px; margin:1em auto; border:none; cursor:pointer; border-radius:0.4em; transition: background 0.5s ease, border-radius 0.5s ease; padding:1em 0; margin-left: 24% }
-
+#MonFormulaire button#Btn1-Submit{background-color:rgb(38,38,40); color:#fec500;); font-family:'Surrounding'; font-size:0.7em; text-transform:uppercase; width:100px;  margin:1em auto; border:none; cursor:pointer; border-radius:0.4em; transition: background 0.5s ease, border-radius 0.5s ease; padding:1em 0; margin-left: 40% }
 
 @media screen and (max-width: 1115px){
     #MonFormulaire{

@@ -74,7 +74,40 @@
     </div>
 </header>
 
+<div id="MonFormulaire">
 
+    <h1>Ajouter une vidéo</h1>
+    <form id="form-id" method="post" action="scripts/formmail.php">
+        <ul>
+            <li id="li-titre">
+                <label for="TitreVideo">Titre de la vidéo :</label>
+                <input id="TitreVideo" class="form-cadre" name="Titrevideo" type="text" placeholder="Exemple : Les lumières de Montbéliard" title="Présentez le titre" /></br>
+            </li>
+            <li  id="li-url">
+                <label for="UrlVideo">Url :</label>
+                <input id="UrlVideo" class="form-cadre" name="UrlVideo" type="url" placeholder="Exemple : montbeliard-lumieres.mp4 " title="Remplir ce champ est nécessaire pour donner une url à votre vidéo" /><br/>
+                <button type="submit" id="Btn1-Submit">Choisir un fichier</button>
+            </li>
+            <li id="li-description">
+                <label for="DescriptionVideo">Description :</label>
+                <input id="DescriptionVideo" class="form-cadre" name="DescriptionVideo" type="text" placeholder="Exemple : Montre le marché de Noel">
+            </li>
+            <li id="li-motscles">
+                <label for="MotsclesVideo">Mots clés :</label>
+                <input id="MotsclesVideo" class="form-cadre" name="MotsclesVideo" type="text" placeholder="Exemple : Marché - Noel">
+            </li>
+            <li id="li-categorie">
+                <label for="CategorieVideo">Catégorie :</label>
+                <input id="CategorieVideo" class="form-cadre" name="CategorieVideo" type="text" placeholder="Exemple : Actualité ">
+            </li>
+
+
+            <button type="submit" id="Btn-Submit">Valider</button>
+
+        </ul>
+    </form>
+
+</div>
 
 <footer>
     <div class="footer1">
