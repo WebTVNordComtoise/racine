@@ -759,7 +759,7 @@ footer {
 
 }
 
-<<<<<<< HEAD
+HEAD
 @charset "utf-8";
 /* CSS Document */
 
@@ -911,8 +911,8 @@ table {
 }
 
 .btn-next {
-    right: 6em;
-=======
+    right: 6em;}
+
 li.newsletter a {
     color: #fec500;
 >>>>>>> origin/master
