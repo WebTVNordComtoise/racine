@@ -643,8 +643,37 @@ main {
             ADRESSES
 /******************************/
 
-.adresses {
+.bonne-adresses h1 {
     text-align: center;
+    margin-top: 10px;
+}
+
+.adresses {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image-adresse {
+    display: flex;
+    margin: 35px;
+
+}
+
+.image-adresse img {
+    margin-right: 10px;
+}
+
+.image-adresse a {
+    color: blue;
+}
+
+.image-adresse a:visited {
+    color: blueviolet;
+}
+
+.info-adresse {
+    flex-direction: column;
 }
 
 /******************************\
