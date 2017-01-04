@@ -75,37 +75,34 @@
 <body>
 
 
-<div class="pagecontact">
+<div id="MonFormulaire">
+
     <h1>Contact</h1>
+    <form id="form-id" method="post" action="scripts/formmail.php">
+        <ul>
+            <li id="li-nom">
+                <label for="NomClient">Nom :</label>
+                <input id="NomClient" class="form-cadre" name="NomClient" type="text" placeholder="Exemple : Jean Dupont" title="Présentez vous ici" /></br>
+            </li>
+            <li  id="li-mail">
+                <label for="MailClient">Adresse mail :</label>
+                <input id="MailClient" class="form-cadre" name="MailClient" type="email" placeholder="Exemple : JD@gmail.fr" title="Remplir ce champ est nécessaire pour que je puisse vous répondre" /><br/>
+            </li>
+            <li id="li-objet">
+                <label for="ObjetClient">Objet :</label>
+                <input id="ObjetClient" class="form-cadre" name="ObjetClient" type="text" placeholder="Exemple : Intérêt vidéo">
+            </li>
+            <li id="MessageClient-li" class="">
+                <label for="MessageClient">Message :</label>
+                <textarea id="MessageClient" name="MessageClient" class="form-cadre" placeholder="Expliquez ici ce dont vous avez besoin !" title="Remplir ce champ est nécessaire pour que je sache la nature de votre demande"></textarea><br/>
+            </li>
 
-    <form method="post" action="">
-        <p>
-            <label for="nom">Nom :</label>
-            <input type="text" name="nom" id="nom" />
+            <button type="submit" id="Btn-Submit">Envoyer</button>
 
-            <br />
+        </ul>
+    </form>
 
-            <label for="mail">Adresse mail :</label>
-            <input type="text" name="mail" id="mail" />
-
-            <br />
-
-            <label for="objet">Objet :</label>
-            <input type="text" name="objet" id="objet" />
-
-            <br />
-
-            <label for="message">Nom :</label>
-            <input type="text" name="message" id="message" />
-
-            <br />
-
-        </p>
-        </form>
 </div>
-
-
-
 <footer>
     <div class="footer1">
         <ul class="menu-footer">
