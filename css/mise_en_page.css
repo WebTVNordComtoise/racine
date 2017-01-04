@@ -98,6 +98,10 @@ header h1 {
     background-color: #0d2554;
 }
 
+.header3 a {
+    text-decoration: none;
+}
+
 #menu {
     padding: 0.8% 0 0.8% 0;
     margin: auto;
@@ -299,7 +303,7 @@ header h1 {
 /******************************\
           CONTACT
 /******************************/
-.h2 {
+.pagecontact h1 {
     text-align: center;
     margin-top: 0;
     padding-top: 10px;
@@ -692,6 +696,10 @@ footer {
 
 .footer1 {
     background-color: #0f3072;
+}
+
+.footer1 a {
+    text-decoration: none;
 }
 
 .menu-footer {
