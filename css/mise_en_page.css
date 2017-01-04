@@ -698,3 +698,7 @@ footer {
     color: white;
 
 }
+
+li.newsletter a {
+    color: #fec500;
+}
