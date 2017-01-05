@@ -625,7 +625,7 @@ header h1 {
             Profil
 /******************************/
 
-.page_profil > h3 {
+.description_profil > h3 {
     text-align: center;
     margin-top: 0;
 }
@@ -645,10 +645,15 @@ header h1 {
     padding-left: 10px;
 }
 
-.page_profil > button {
+.description_profil > button {
     color: black;
     background-color: darkgrey;
     border-color: black;
+    margin-top: 40px;
+}
+
+.description_profil p {
+    margin-top: 40px;
 }
 
 .videos_profil button {
@@ -686,8 +691,22 @@ header h1 {
     border-color: black;
     border-width: 2px;
     display: block;
-    margin: auto;
+    margin-left: 50px;
     margin-top: 10px;
+    margin-right: 50px;
+}
+
+.profil_presentation {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.description_profil {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
 }
 
 .ajoutees, .preferences {
@@ -766,13 +785,25 @@ header h1 {
             AGENDA
 /******************************/
 
-.video_agenda {
+.agenda {
+    background-color: #D9E0E2;
+    padding: 10px;
+}
+
+.videos_agenda {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.video_agenda, .videos_agenda h4  {
     padding-bottom: 10px;
+    margin-left: 100px;
 }
 
 .video_agenda img {
     float: left;
-    width: 150px;
+    width: 200px;
     margin-right: 10px;
 }
 
@@ -780,30 +811,12 @@ header h1 {
     margin-top: 10px;
 }
 
-.page_agenda h2 {
+.agenda h2 {
     text-align: center;
     margin: 0;
     padding: 5px;
 }
 
-.gris_clair, .gris_fonce {
-    padding-left: 50px;
-    border-bottom: solid 1px black;
-}
-
-.gris_fonce:first-child {
-    padding-left: 0;
-}
-
-.gris_clair > h4, .gris_fonce > h4 {
-    margin: 0;
-    padding: 10px;
-}
-
-.gris_fonce p, .gris_clair p {
-    margin-bottom: 0;
-    padding-bottom: 5px;
-}
 
 .agenda button {
     display: inline-block;
@@ -947,9 +960,19 @@ footer{
     color: white;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+/*<<<<<<< HEAD
+
+<<<<<<< HEAD
+=======
+HEAD
+>>>>>>> origin/master*/
+@charset "utf-8";
+>>>>>>> master
 /* CSS Document */
 
 /* ---------- FONTAWESOME ---------- */
