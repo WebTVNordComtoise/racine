@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
-    <title>Profil</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/mise_en_page.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/typo_couleurs.css">
-    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <title>Connexion</title>
 </head>
-<body class="page_profil">
+
 <header>
 
 
@@ -32,7 +32,7 @@
     </div>
 
     <div class="header2">
-        <a href="index.html"> <img class="logo" src="media/images/logo.jpg" alt="logo"> </a>
+        <a href="index.html"> <img class="logo" src="media/images/logo.png" alt="logo"> </a>
 
     </div>
 
@@ -41,8 +41,6 @@
         <h1 class="tagline"> Au rythme du Nord Franche Comté</h1>
 
     </div>
-
-    <a href="profil.html"><img class="roundedImage" src="media/images/photoprofil.jpg"></a>
 
     <div class="header3">
         <nav role="navigation">
@@ -57,7 +55,7 @@
                     <li><a class="accueil" href="categorie.html">Catégories</a></li>
                     <!--
                                         -->
-                    <li><a class="accueil" href="diffusez-vous.html">Diffusez-vous</a></li>
+                    <li><a class="accueil" href="Diffusez.html">Diffusez-vous</a></li>
                     <!--
                                         -->
                     <li><a class="accueil" href="adresses.html">Bonnes adresses</a></li>
@@ -72,63 +70,44 @@
     </div>
 </header>
 
-<img class="profil" src="media/images/image-profil.jpg" alt="profil">
+<body>
 
-<h3>Pierre25600</h3>
+<h2 class="titre-inscription"> Se connecter </h2>
 
-<p>Description du profil</p>
 
-<button>Modifier</button>
+<div class="inscription">
 
-<div class="videos_profil">
-    <div class="ajoutees">
-        <h3>Vidéos ajoutées :</h3>
-        <a href="#">
-            <img src="media/images/miniature(1).jpg" alt="vidéo">
-
-            <p>Titre</p>
-        </a>
-        <a href="#">
-            <img src="media/images/miniature(2).jpg" alt="vidéo">
-
-            <p>Titre</p>
-        </a>
-        <a href="#">
-            <img src="media/images/miniature(3).jpg" alt="vidéo">
-
-            <p>Titre</p>
-        </a>
-
-        <button>Ajouter</button>
+    <div class="connexion">
+        <p>Identifiant </p>
+        <form action="/search" id="searchnom" method="get">
+            <input id="connexion" name="q" type="text" placeholder=""/>
+        </form>
     </div>
 
-    <div class="preferences">
-        <h3>Préférences :</h3>
-        <a href="#">
-            <img src="media/images/miniature(4).jpg" alt="vidéo">
-
-            <p>Titre</p>
-        </a>
-        <a href="#">
-            <img src="media/images/miniature(5).jpg" alt="vidéo">
-
-            <p>Titre</p>
-        </a>
-        <a href="#">
-            <img src="media/images/miniature(6).png" alt="vidéo">
-
-            <p>Titre</p>
-        </a>
-
-        <button>S'abonner</button>
+    <div class="mdp">
+        <p>Mot de passe </p>
+        <form action="/search" id="searchprenom" method="get">
+            <input id="mdp" name="q" type="text" placeholder=""/>
+        </form>
+        <a href="#" class="mdpoublie">Mot de passe oublié ?</a>
     </div>
+
+
+
 </div>
+
+<a class="button" href="#">Connexion</a>
+
+
+
+</body>
 
 <footer>
     <div class="footer1">
         <ul class="menu-footer">
-            <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
-            <li class="newsletter"><a href="">Newsletter</a></li>
+            <li><a href="contact.html">Qui sommes-nous ?</a></li>
+            <li><a href="Devenez-annonceur.html">Devenez annonceurs</a></li>
+            <li><a id="jaune2" href="#">Newsletter</a></li>
         </ul>
     </div>
 
@@ -137,5 +116,4 @@
     </div>
 
 </footer>
-</body>
 </html>
