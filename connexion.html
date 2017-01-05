@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
-    <title>Catégories</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/mise_en_page.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/typo_couleurs.css">
+    <title>Connexion</title>
 </head>
-<body>
 
 <header>
 
@@ -33,7 +32,7 @@
     </div>
 
     <div class="header2">
-        <a href="index.html"> <img class="logo" src="media/images/logo.jpg" alt="logo"> </a>
+        <a href="index.html"> <img class="logo" src="media/images/logo.png" alt="logo"> </a>
 
     </div>
 
@@ -42,8 +41,6 @@
         <h1 class="tagline"> Au rythme du Nord Franche Comté</h1>
 
     </div>
-
-    <a href="profil.html"><img class="roundedImage" src="media/images/photoprofil.jpg"></a>
 
     <div class="header3">
         <nav role="navigation">
@@ -58,7 +55,7 @@
                     <li><a class="accueil" href="categorie.html">Catégories</a></li>
                     <!--
                                         -->
-                    <li><a class="accueil" href="diffusez-vous.html">Diffusez-vous</a></li>
+                    <li><a class="accueil" href="Diffusez.html">Diffusez-vous</a></li>
                     <!--
                                         -->
                     <li><a class="accueil" href="adresses.html">Bonnes adresses</a></li>
@@ -73,64 +70,50 @@
     </div>
 </header>
 
-<div class="categories">
+<body>
 
-    <div class="categorie1">
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n1.png" alt="categorie">
-        </a>
-        <!--
-                                            -->
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n2.png" alt="Musique">
-        </a>
-        <!--
-                                            -->
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n3.png" alt="Musique">
-        </a>
-        <!--
-                                            -->
+<h2 class="titre-inscription"> Se connecter </h2>
+
+
+<div class="inscription">
+
+    <div class="connexion">
+        <p>Identifiant </p>
+        <form action="/search" id="searchnom" method="get">
+            <input id="connexion" name="q" type="text" placeholder=""/>
+        </form>
     </div>
 
-    <div class="categorie2">
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n4.png" alt="Musique">
-        </a>
-        <!--
-                                            -->
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n5.png" alt="Sport">
-        </a>
-        <!--
-                                            -->
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n6.png" alt="Culture">
-        </a>
-        <!--
-                                            -->
+    <div class="mdp">
+        <p>Mot de passe </p>
+        <form action="/search" id="searchprenom" method="get">
+            <input id="mdp" name="q" type="text" placeholder=""/>
+        </form>
+        <a href="#" class="mdpoublie">Mot de passe oublié ?</a>
     </div>
 
-    <div class="categorie3">
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n7.png" alt="Parole">
-        </a>
-        <!--
-                                            -->
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n8.png" alt="Invitent">
-        </a>
-        <!--
-                                            -->
-        <a href="Video.html">
-            <img class="fond-principale" src="media/images/n9.png" alt="Actualité">
-        </a>
-        <!--
-                                            -->
-    </div>
+
+
 </div>
 
-</footer>
-</body>
-</html>
+<a class="button" href="#">Connexion</a>
 
+
+
+</body>
+
+<footer>
+    <div class="footer1">
+        <ul class="menu-footer">
+            <li><a href="contact.html">Qui sommes-nous ?</a></li>
+            <li><a href="Devenez-annonceur.html">Devenez annonceurs</a></li>
+            <li><a id="jaune2" href="#">Newsletter</a></li>
+        </ul>
+    </div>
+
+    <div class="footer2">
+        <p class="mention-legale">Mentions légales</p>
+    </div>
+
+</footer>
+</html>

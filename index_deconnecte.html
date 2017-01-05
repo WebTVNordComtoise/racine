@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/typo_couleurs.css">
-    <title>Inscription</title>
+    <title>Accueil</title>
 </head>
 
 <header>
@@ -32,7 +32,12 @@
     </div>
 
     <div class="header2">
-        <a href="index.html"> <img class="logo" src="media/images/logo.jpg" alt="logo"> </a>
+        <a href="index.html"> <img class="logo" src="media/images/logo.png" alt="logo"> </a>
+
+        <div class="bloc-connexion">
+            <a class="button-accueil" href="inscription.html">Inscription</a>
+            <a class="button-accueil" href="connexion.html">Connexion</a>
+        </div>
 
     </div>
 
@@ -42,7 +47,7 @@
 
     </div>
 
-    <img class="roundedImage" src="media/images/photoprofil.jpg">
+
 
     <div class="header3">
         <nav role="navigation">
@@ -74,67 +79,88 @@
 
 <body>
 
-<h2 class="titre-inscription"> Inscription </h2>
+<div class="accueil-principale">
 
+    <div class="couleur-fond">
+        <p class="description">Avec votre WEB TV, profitez de la vie locale <br>
+            Nord Comtoise en un seul clic et retrouvez toutes nos vidéos.<br>
+            Nous sommes les témoins, vous êtes les acteurs !</p>
 
-    <div class="inscription">
+        <div class="accueilimage1">
+            <img class="image-pub" src="media/images/bannierepub.png" alt="bannierepub">
 
-        <div class="nom">
-            <p>Nom : </p>
-            <form action="/search" id="searchnom" method="get">
-                <input id="nom" name="q" type="text" placeholder=""/>
-            </form>
+            <img src="media/images/live.jpg" alt="Live">
         </div>
-
-        <div class="prenom">
-            <p>Prénom : </p>
-            <form action="/search" id="searchprenom" method="get">
-                <input id="prenom" name="q" type="text" placeholder=""/>
-            </form>
-        </div>
-
-        <div class="ville">
-            <p>Ville : </p>
-            <form action="/search" id="searchville" method="get">
-                <input id="ville" name="q" type="text" placeholder=""/>
-            </form>
-        </div>
-
-        <div class="mail">
-            <p>Mail : </p>
-            <form action="/search" id="searchmail" method="get">
-                <input id="mail" name="q" type="text" placeholder=""/>
-            </form>
-        </div>
-
-        <div class="identifiant">
-            <p>Identifiant : </p>
-            <form action="/search" id="searchidentifiant" method="get">
-                <input id="identifiant" name="q" type="text" placeholder=""/>
-            </form>
-
-        </div>
-
-        <div class="motdepasse">
-            <p>Mot de passe : </p>
-            <form action="/search" id="searchmotdepasse" method="get">
-                <input id="motdepasse" name="q" type="text" placeholder=""/>
-            </form>
-        </div>
-
-        <div class="motdepasse2">
-            <p>Répéter mot de passe : </p>
-            <form action="/search" id="searchmotdepasse2" method="get">
-                <input id="motdepasse2" name="q" type="text" placeholder=""/>
-            </form>
-        </div>
+        <img class="image-pub" src="media/images/bannierepub.png" alt="bannierepub">
     </div>
 
-<a class="button" href="#">Valider</a>
 
+    <div class="couleur-fond2">
+        <div class="videos-accueil">
+            <h3>VIDÉOS LES PLUS VUES :</h3>
 
+            <div class="lespluevues">
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="1">
 
-</body>
+                    <p>À venir !</p>
+                </div>
+                <!--
+                                -->
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="2">
+
+                    <p>À venir !</p>
+                </div>
+                <!--
+                                -->
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="3">
+
+                    <p>À venir !</p>
+                </div>
+                <!--
+                                -->
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="4">
+
+                    <p>À venir !</p>
+                </div>
+            </div>
+
+            <h3>VIDÉOS LES PLUS RÉCENTES :</h3>
+
+            <div class="lespluerecentes">
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="1">
+
+                    <p>À venir !</p>
+                </div>
+                <!--
+                                -->
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="2">
+
+                    <p>À venir !</p>
+                </div>
+                <!--
+                                -->
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="3">
+
+                    <p>À venir !</p>
+                </div>
+                <!--
+                                -->
+                <div class="video-elm">
+                    <img src="media/images/miniature.png" alt="4">
+
+                    <p>À venir !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div class="footer1">
@@ -150,4 +176,5 @@
     </div>
 
 </footer>
+</body>
 </html>

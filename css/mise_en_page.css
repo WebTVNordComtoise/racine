@@ -33,7 +33,7 @@ header {
     border: solid 0px black;
     width: 250px;
     height: 30px;
-    font-family: ssp;
+    font-family: ssp,sans-serif;
     color: black;
     left: 20px;
     top: 35px;
@@ -64,8 +64,8 @@ header {
 
 header h1 {
     color: white;
-    font-family: Avenir;
-    font-size: 20px;
+    font-family: Avenir, sans-serif;
+    font-size: 30px;
     font-weight: 100;
     padding-left: 40%;
     padding-bottom: 15px;
@@ -130,6 +130,30 @@ header h1 {
 #menu > li:nth-child(5){
     border-right: 0;
 }
+
+.button-accueil {
+    background-color: #303030;
+    margin-top: -40px;
+    margin-right: 30px;
+    float: right;
+    width: 150px;
+    display: block;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+/******************************\
+             /Header
+/******************************/
+
+
+
 /******************************\
             div accueil
 /******************************/
@@ -141,7 +165,7 @@ header h1 {
 .description {
     margin: 0;
     color: black;
-    font-family: Surrounding;
+    font-family: Surrounding, sans-serif;
     text-align: center;
     font-size: 23px;
     padding-top: 5px;
@@ -239,6 +263,49 @@ header h1 {
     margin: 0;
 }
 
+
+/******************************\
+            /div accueil
+/******************************/
+
+
+/******************************\
+           Connexion
+/******************************/
+
+
+#connexion, #mdp {
+    border: solid 2px grey;
+    background-color: #D9E0E2;
+    width: 450px;
+    height: 40px;
+    font-family: ssp, sans-serif;
+    color: black;
+    left: 20px;
+    top: 35px;
+}
+
+.mdp{
+    margin-bottom: 50px;
+}
+
+#mdp{
+    margin-bottom: 20px;
+}
+
+.mdpoublie{
+    font-size: 15px;
+    margin-left: 300px;
+}
+
+
+/******************************\
+           /Connexion
+/******************************/
+
+
+
+
 /******************************\
             VIDEO
 /******************************/
@@ -251,7 +318,7 @@ header h1 {
 .titre-video{
     margin-top: 10px;
     font-size: 25px;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-weight: 100;
     color: black;
     margin-left: 8%;
@@ -296,7 +363,7 @@ header h1 {
 
 .info-video-principale p{
     font-size: 20px;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-weight: 300;
 }
 
@@ -315,7 +382,7 @@ header h1 {
 
 .info-video-principale{
     font-size: 20px;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-weight: 300;
     color: black;
 }
@@ -380,7 +447,7 @@ header h1 {
     text-align: center;
     margin-top: 0;
     padding-top: 10px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 
 }
 
@@ -391,11 +458,11 @@ header h1 {
 #MonFormulaire li{background-color:rgb(255,255,255); line-height:3em; border-radius:0.5em; list-style:none; padding:0.5em; margin-bottom:0.5em; transition:box-shadow 0.5s ease; border: 1px solid; color:#0d2554;}
 #MonFormulaire li:hover{box-shadow:0 0 10px;  color: #0d2554;;}
 #MonFormulaire li label, #MonFormulaire li input{display:inline-block;}
-#MonFormulaire label{font-family:Surrounding; margin-left:1em; width:140px; text-align:center;	}
-#MonFormulaire input{font-family:'Surrounding'; font-size:0.85em; width:65%; height:2.5em; border:none; text-align:center; border-left:1px solid rgb(150,150,150); margin-left:1em; background:transparent;}
-#MonFormulaire textarea{font-family:'Surrounding'; width:98%; height:14em; font-size:0.85em; padding:0.5em; border:none; text-align:center;}
+#MonFormulaire label{font-family:Surrounding, sans-serif; margin-left:1em; width:140px; text-align:center;	}
+#MonFormulaire input{font-family:'Surrounding', sans-serif; font-size:0.85em; width:65%; height:2.5em; border:none; text-align:center; border-left:1px solid rgb(150,150,150); margin-left:1em; background:transparent;}
+#MonFormulaire textarea{font-family:'Surrounding', sans-serif; width:98%; height:14em; font-size:0.85em; padding:0.5em; border:none; text-align:center;}
 
-#MonFormulaire button#Btn-Submit{background-color:rgb(38,38,40); color:#fec500;); font-family:'Surrounding'; font-size:1em; text-transform:uppercase; width:300px; margin:1em auto; border:none; cursor:pointer; border-radius:0.4em; transition: background 0.5s ease, border-radius 0.5s ease; padding:1em 0; margin-left: 24% }
+#MonFormulaire button#Btn-Submit{background-color:rgb(38,38,40); color:#fec500;); font-family:'Surrounding', sans-serif; font-size:1em; text-transform:uppercase; width:300px; margin:1em auto; border:none; cursor:pointer; border-radius:0.4em; transition: background 0.5s ease, border-radius 0.5s ease; padding:1em 0; margin-left: 24% }
 
 
 @media screen and (max-width: 1115px){
@@ -483,7 +550,7 @@ header h1 {
 
 .information-live p {
     font-size: 20px;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-weight: 300;
 
 }
@@ -521,7 +588,7 @@ header h1 {
 .titre-live {
     margin-top: 10px;
     font-size: 25px;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-weight: 100;
     color: black;
     margin-left: 8%;
@@ -540,7 +607,7 @@ header h1 {
 
 .utilisateur, .date-ligne, .nombre-live, .information-live {
     font-size: 20px;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-weight: 300;
     color: black;
 }
@@ -670,7 +737,7 @@ header h1 {
     background-color: #D9E0E2;
     width: 450px;
     height: 40px;
-    font-family: ssp;
+    font-family: ssp, sans-serif;
     color: black;
     left: 20px;
     top: 35px;
@@ -707,6 +774,7 @@ header h1 {
     cursor: pointer;
     border-radius: 10px;
 }
+
 
 /******************************\
          /Inscription
@@ -789,7 +857,7 @@ header h1 {
 }
 
 /******************************\
-             /Qui sommes nous ?
+     /Qui sommes nous ?
 /******************************/
 
 /******************************\
@@ -892,6 +960,11 @@ footer{
     color: white;
 }
 
+<<<<<<< HEAD
+
+
+
+=======
 /*<<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -899,6 +972,7 @@ footer{
 HEAD
 >>>>>>> origin/master*/
 @charset "utf-8";
+>>>>>>> master
 /* CSS Document */
 
 /* ---------- FONTAWESOME ---------- */
