@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/typo_couleurs.css">
-    <title>Accueil</title>
+    <title>Vidéo</title>
 </head>
 
-<body>
 <header>
 
 
@@ -59,7 +58,7 @@
                     <li><a class="accueil" href="categorie.html">Catégories</a></li>
                     <!--
                                         -->
-                    <li><a class="accueil" href="diffusez-vous.html">Diffusez-vous</a></li>
+                    <li><a class="accueil" href="Diffusez.html">Diffusez-vous</a></li>
                     <!--
                                         -->
                     <li><a class="accueil" href="adresses.html">Bonnes adresses</a></li>
@@ -74,58 +73,106 @@
     </div>
 </header>
 
+<body>
+
 <div class="pagevideo">
 
-    <div class="couleur-fond">
-        <div class="video1-1">
-            <h3>Titre de la vidéo</h3>
-            <img src="media/images/14555795_1050222531763512_1937778438_n.jpg" alt="">
-        </div>
-        <img id="pubvideo1-1" src="media/images/grazia-nouveau.png" alt="">
-        <div class="infosvideos">
-            <p>Pierre25600</p>
-            <aside>
-                <p>02/10/16</p>
-                <p>1 253 vues</p>
-            </aside>
+    <div class="video-partie">
+        <h2 class="titre-video">Titre de la video :</h2>
+        <iframe class="live" width="350" height=300" src="https://www.youtube.com/embed/lq60itL0BxM" frameborder="0" allowfullscreen>   </iframe>
+        <img class="pub-video" src="media/images/bannierepub.png" alt="Pub">
+
+        <div class="info-video-principale">
+            <div class="info-video">
+                <p class="utilisateur-live">Pierre25600</p>
+                <div class="right-video">
+                    <p>02/10/2016</p>
+                    <p>1253 vues</p>
+                </div>
+                <p class="info">Petite vidéo animée que j'ai moi-même réalisé, n'hésitez pas à laisser votre avis !</p>
+            </div>
+
         </div>
 
+    </div><!--
+
+
+    --><div class="video-partie1">
+    <div class="autre-video">
+        <img class="video1" src="media/images/miniature.png" alt="video"><!--
+            --><div class="content">
+        <p>Titre vidéo</p>
+        <p>Nombre de vues</p>
+        <p>Date</p>
+        <p>Utilisateur</p>
+    </div>
     </div>
 
-    <div class="couleur-fond2">
-        <img id="videotest" src="media/images/n4.jpg" alt="v1">
-        <div class="pagevideo1">
-            <p>Titre vidéo </p>
-            <p>Nombre de vues</p>
-            <p>Date</p>
-            <p>Utilisateur</p>
-        </div>
-
-        <img id="videotest2" src="media/images/n5.jpg" alt="v2">
-        <div class="pagevideo1-2">
-            <p>Titre vidéo </p>
-            <p>Nombre de vues</p>
-            <p>Date</p>
-            <p>Utilisateur</p>
-        </div>
+    <div class="autre-video">
+        <img class="video2" src="media/images/miniature.png" alt="video2"><!--
+            --><div class="content">
+        <p>Titre vidéo</p>
+        <p>Nombre de vues</p>
+        <p>Date</p>
+        <p>Utilisateur</p>
     </div>
+    </div>
+
+    <div class="autre-video">
+        <img class="video3" src="media/images/miniature.png" alt="video3"><!--
+            --><div class="content">
+        <p>Titre vidéo</p>
+        <p>Nombre de vues</p>
+        <p>Date</p>
+        <p>Utilisateur</p>
+    </div>
+    </div>
+
+    <div class="autre-video">
+        <img class="video1" src="media/images/miniature.png" alt="video"><!--
+            --><div class="content">
+        <p>Titre vidéo</p>
+        <p>Nombre de vues</p>
+        <p>Date</p>
+        <p>Utilisateur</p>
+    </div>
+    </div>
+
+    <div class="autre-video">
+        <img class="video2" src="media/images/miniature.png" alt="video2"><!--
+            --><div class="content">
+        <p>Titre vidéo</p>
+        <p>Nombre de vues</p>
+        <p>Date</p>
+        <p>Utilisateur</p>
+    </div>
+    </div>
+
+    <div class="autre-video">
+        <img class="video3" src="media/images/miniature.png" alt="video3"><!--
+            --><div class="content">
+        <p>Titre vidéo</p>
+        <p>Nombre de vues</p>
+        <p>Date</p>
+        <p>Utilisateur</p>
+    </div>
+    </div>
+
+</div>
+
+</div>
 </div>
 
 
-<div class="couleur-fond">
-    <div class="commentaire">
-<h3>Laisser un commentaire :</h3>
-    <form action="index.html" method="post">
-       <textarea class="commentaire1" rows="4" cols="30"></textarea>
-    </form>
-</div>
-</div>
+
+
+
 
 <footer>
     <div class="footer1">
         <ul class="menu-footer">
-            <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
-            <li class="newsletter"><a href="">Newsletter</a></li>
+            <li><a href="contact.html">Qui sommes-nous ?</a></li>
+            <li><a id="jaune2" href="#">Newsletter</a></li>
         </ul>
     </div>
 

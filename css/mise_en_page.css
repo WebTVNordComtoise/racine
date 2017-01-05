@@ -24,7 +24,7 @@ header {
 .recherche_p {
     position: relative;
     display: block;
-    top: -50px;
+    top: -45px;
     width: 28vw;
 }
 
@@ -53,6 +53,7 @@ header {
 
 .header2 {
     background-color: #0f3072;
+    padding-bottom: 10px;
     height: 120px
 }
 
@@ -97,37 +98,36 @@ header h1 {
     background-color: #0d2554;
 }
 
-.header3 a {
-    text-decoration: none;
-}
-
-#menu {
-    padding: 0.8% 0 0.8% 0;
+#menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8% 7.5% 0.8% 7.5%;
     margin: auto;
-    width: 100%;
+    width: 85%;
 
 }
 
-#menu li {
+#menu li{
+    display: inline-block;
     text-align: center;
     list-style-type: none;
-    font-size: 25px;
+    border-right: 2px solid white;
+    padding-right: 7%;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-#menu li a {
+
+#menu li a{
     color: white;
 
 }
 
-#menu > li:nth-child(1) > a {
+#menu > li:nth-child(1) > a{
     color: #fec500;
 }
 
-#menu > li:nth-child(6) {
-    border-right: 0;
-}
-
-#menu > li:nth-child(5) {
+#menu > li:nth-child(5){
     border-right: 0;
 }
 /******************************\
@@ -243,56 +243,130 @@ header h1 {
             VIDEO
 /******************************/
 
-.video1-1 h3 {
-    padding-left: 20px;
-    font-family: Avenir;
-    margin-top: 0;
-    padding-top: 15px;
-}
-
-.video1-1 img {
+.pagevideo{
+    overflow: auto;
     width: 100%;
 }
 
-#pubvideo1-1 {
-    width: 80%;
-    margin-left: 35px;
-    padding-top: 30px;
-}
-
-.pagevideo1 {
-    float: right;
-}
-
-#videotest {
-    padding-bottom: 20px;
-    margin-top: 15px;
-}
-
-#videotest1 {
-    margin-bottom: 15px;
-}
-
-.pagevideo1-2 {
-    float: right;
-    margin-top: -7px;
-}
-
-.infosvideos {
-    margin-bottom: -17px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.commentaire1 {
-    margin-left: 50px;
+.titre-video{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Avenir;
+    font-weight: 100;
+    color: black;
+    margin-left: 8%;
     margin-bottom: 10px;
 }
 
-.commentaire h3 {
-    padding-top: 20px;
-    margin-top: -1px;
-    padding-left: 47px;
+.video-partie{
+    background-color: #f2f2f2;
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+
+
+.info-video{
+    position: relative;
+    min-height: 200px;
+}
+
+.pub-video{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.right-video{
+    position: absolute;
+    vertical-align: top;
+    top: 0;
+    right: 0;
+}
+
+.right-video p:first-child{
+    margin-top: 0;
+}
+
+.info-video-principale{
+    background-color: white;
+    padding: 5px 30px;
+}
+
+.info-video-principale p{
+    font-size: 20px;
+    font-family: Avenir;
+    font-weight: 300;
+}
+
+.info{
+    margin-top: 95px;
+    padding: 0 2% 4% 2%;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+.live{
+    width: 100%;
+}
+
+.info-video-principale{
+    font-size: 20px;
+    font-family: Avenir;
+    font-weight: 300;
+    color: black;
+}
+
+.video-partie1{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.video-partie1 img{
+    margin: 10px 0;
+}
+
+.video-partie1 .content{
+    padding-left: 10px;
+    line-height: 85%;
+}
+
+.autre-video img, .video-partie1 .content{
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
+
+.autre-video img{
+    min-width: 30%;
+}
+
+.video1,.video2, .video3{
+    display: flex;
+    width: 50%;
+}
+
+.video-partie1 > div:nth-child(1), .video-partie1 > div:nth-child(2), .video-partie1 > div:nth-child(4), .video-partie1 > div:nth-child(5){
+    padding-bottom: 25px;
+}
+
+.video-partie1 > div:nth-child(3){
+    padding-bottom: 80px;
+}
+
+.video-partie1 > div:nth-child(6){
+    border-bottom: 1px solid black;
+}
+
+.autre-video{
+    padding-left: 150px;
 }
 
 /******************************\
@@ -342,26 +416,25 @@ header h1 {
 /******************************\
            Catégorie
 /******************************/
-.categorie {
-    text-align: center;
-    font-size: 35px;
-    font-family: Avenir;
-    font-weight: 100;
-    color: black;
+
+.categorie1, .categorie2,.categorie3{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
 
-.fond-principale {
+.categorie1 a, .categorie2 a, .categorie3 a{
+    text-align: center;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+.categorie1 a img, .categorie2 a img,.categorie3 a img{
     width: 80%;
-    margin-bottom: 50px;
+    height: 80%;
 }
 
-.categories {
-    text-align: center;
-}
 
-.nom-categorie {
-
-}
 
 /******************************\
            /Catégorie
@@ -570,6 +643,58 @@ header h1 {
 /******************************/
 
 /******************************\
+          Inscription
+/******************************/
+
+#nom, #prenom, #ville, #mail, #identifiant, #motdepasse, #motdepasse2 {
+    border: solid 2px grey;
+    background-color: #D9E0E2;
+    width: 450px;
+    height: 40px;
+    font-family: ssp;
+    color: black;
+    left: 20px;
+    top: 35px;
+}
+
+.titre-inscription{
+    margin-top: 25px;
+    margin-bottom: 50px;;
+    text-align: center;
+    font-size: 35px;
+}
+
+.inscription{
+    text-align: center;
+}
+
+.motdepasse2{
+    padding-bottom: 50px;
+}
+
+.button {
+    background-color: #303030;
+    width: 200px;
+    border: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: yellow;
+    padding: 15px 32px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/******************************\
+         /Inscription
+/******************************/
+
+
+/******************************\
             AGENDA
 /******************************/
 
@@ -688,51 +813,47 @@ header h1 {
             FOOTER
 /******************************/
 
-footer {
+footer{
     width: 100%;
 }
 
-.footer1 {
+.footer1{
     background-color: #0f3072;
 }
 
-.footer1 a {
-    text-decoration: none;
-}
-
-.menu-footer {
+.menu-footer{
     text-align: center;
-    padding: 1.5% 0 1.5% 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 12.5% 1.5% 12.5%;
     margin: auto;
     width: 70%;
 }
-
-.menu-footer li {
+.menu-footer li{
     display: inline;
     list-style-type: none;
 }
 
-.menu-footer li a {
-    margin: 0 25px;
+.menu-footer li a{
     color: white;
 }
 
-#jaune2 {
+#jaune2{
     color: #fec500;
 }
 
-.footer2 {
+.footer2{
     background-color: #0d2554;
 }
 
-.mention-legale {
+.mention-legale{
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;;
     text-align: center;
     color: white;
-
 }
+
 
 <<<<<<< HEAD
 @charset "utf-8";

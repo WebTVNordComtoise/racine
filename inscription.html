@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/mise_en_page.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/typo_couleurs.css">
-    <title>Agenda</title>
+    <title>Inscription</title>
 </head>
 
 <header>
@@ -73,82 +73,76 @@
     </div>
 </header>
 
-<div class="agenda">
-    <div class="gris_fonce">
-        <h2>Agenda</h2>
+<body>
 
-        <div class="boutons_agenda">
-            <button class="a_venir">A venir</button>
-            <button class="revoir">Revoir</button>
+<h2 class="titre-inscription"> Inscription </h2>
+
+
+    <div class="inscription">
+
+        <div class="nom">
+            <p>Nom : </p>
+            <form action="/search" id="searchnom" method="get">
+                <input id="nom" name="q" type="text" placeholder=""/>
+            </form>
+        </div>
+
+        <div class="prenom">
+            <p>Prénom : </p>
+            <form action="/search" id="searchprenom" method="get">
+                <input id="prenom" name="q" type="text" placeholder=""/>
+            </form>
+        </div>
+
+        <div class="ville">
+            <p>Ville : </p>
+            <form action="/search" id="searchville" method="get">
+                <input id="ville" name="q" type="text" placeholder=""/>
+            </form>
+        </div>
+
+        <div class="mail">
+            <p>Mail : </p>
+            <form action="/search" id="searchmail" method="get">
+                <input id="mail" name="q" type="text" placeholder=""/>
+            </form>
+        </div>
+
+        <div class="identifiant">
+            <p>Identifiant : </p>
+            <form action="/search" id="searchidentifiant" method="get">
+                <input id="identifiant" name="q" type="text" placeholder=""/>
+            </form>
+
+        </div>
+
+        <div class="motdepasse">
+            <p>Mot de passe : </p>
+            <form action="/search" id="searchmotdepasse" method="get">
+                <input id="motdepasse" name="q" type="text" placeholder=""/>
+            </form>
+        </div>
+
+        <div class="motdepasse2">
+            <p>Répéter mot de passe : </p>
+            <form action="/search" id="searchmotdepasse2" method="get">
+                <input id="motdepasse2" name="q" type="text" placeholder=""/>
+            </form>
         </div>
     </div>
 
-    <div class="gris_clair">
-        <h4>03/10/2016 :</h4>
+<a class="button" href="#">Valider</a>
 
-        <div class="video_agenda">
-            <img src="media/images/miniature(1).jpg">
 
-            <p>Titre vidéo</p>
 
-            <p>Utilisateur</p>
-
-            <p>Description</p>
-        </div>
-        <div class="video_agenda">
-            <img src="media/images/miniature(2).jpg">
-
-            <p>Titre vidéo</p>
-
-            <p>Utilisateur</p>
-
-            <p>Description</p>
-        </div>
-    </div>
-
-    <div class="gris_fonce">
-        <h4>05/10/2016 :</h4>
-
-        <div class="video_agenda">
-            <img src="media/images/miniature(3).jpg">
-
-            <p>Titre vidéo</p>
-
-            <p>Utilisateur</p>
-
-            <p>Description</p>
-        </div>
-    </div>
-
-    <div class="gris_clair">
-        <h4>10/10/2016</h4>
-
-        <div class="video_agenda">
-            <img src="media/images/miniature(4).jpg">
-
-            <p>Titre vidéo</p>
-
-            <p>Utilisateur</p>
-
-            <p>Description</p>
-        </div>
-        <div class="video_agenda">
-            <img src="media/images/miniature(5).jpg">
-
-            <p>Titre vidéo</p>
-
-            <p>Utilisateur</p>
-
-            <p>Description</p>
-        </div>
-    </div>
-</div>
+</body>
 
 <footer>
     <div class="footer1">
         <ul class="menu-footer">
-            <li><a href="quisommesnous.html">Qui sommes nous ?</a></li>
-            <li class="newsletter"><a href="">Newsletter</a></li>
+            <li><a href="contact.html">Qui sommes-nous ?</a></li>
+            <li><a href="Devenez-annonceur.html">Devenez annonceurs</a></li>
+            <li><a id="jaune2" href="#">Newsletter</a></li>
         </ul>
     </div>
 
@@ -157,5 +151,4 @@
     </div>
 
 </footer>
-</body>
 </html>
