@@ -77,7 +77,7 @@
 <div id="MonFormulaire">
 
     <h1>Ajouter une vidéo</h1>
-    <form id="form-id" method="post" action="scripts/formmail.php">
+    <form id="form-id" method="post" action="joindre.php">
         <ul>
             <li id="li-titre">
                 <label for="TitreVideo">Titre de la vidéo :</label>
@@ -86,7 +86,9 @@
             <li  id="li-url">
                 <label for="UrlVideo">Url :</label>
                 <input id="UrlVideo" class="form-cadre" name="UrlVideo" type="url" placeholder="Exemple : montbeliard-lumieres.mp4 " title="Remplir ce champ est nécessaire pour donner une url à votre vidéo" /><br/>
-                <button type="submit" id="Btn1-Submit">Choisir un fichier</button>
+                <form method="post" enctype="multipart/form-data">
+                    <input type="file" id="Btn1-Submit" name="fichier"/>
+                </form>
             </li>
             <li id="li-description">
                 <label for="DescriptionVideo">Description :</label>
